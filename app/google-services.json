@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "168912674045",
+    "project_id": "chatexample-cda5f",
+    "storage_bucket": "chatexample-cda5f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:168912674045:android:45d45e7a1099be13adb294",
+        "android_client_info": {
+          "package_name": "com.nguyenloi.chatfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "168912674045-fvmet8m1qh735evgtn087ti2coajhmiu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXHjuQZdlYXQVF4Ajqrx1jOLK0IijzWN0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "168912674045-fvmet8m1qh735evgtn087ti2coajhmiu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

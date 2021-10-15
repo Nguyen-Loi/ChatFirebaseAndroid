@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".ProfileActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgProfile"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+    />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtProfileUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_marginLeft="40dp"
+            android:gravity="center"
+            android:layout_marginRight="40dp"
+            android:hint="Username" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnProfileUpdate"
+        android:layout_width="209dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="50dp"
+        android:text="UPDATE" />
+
+</LinearLayout>
