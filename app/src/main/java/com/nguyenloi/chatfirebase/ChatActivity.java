@@ -96,6 +96,11 @@ public class ChatActivity extends AppCompatActivity {
 
                         messageAdapter.notifyDataSetChanged();
                         rcvChat.scrollToPosition(list.size()-1);
+                        Log.e("Hello","world");
+                        Log.e("Hello","world");
+                        Log.e("Hello","world");
+                        Log.e("Hello","world");
+                        Log.e("Hello","world");
                     }
 
                     @Override
